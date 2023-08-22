@@ -1,0 +1,106 @@
+.section-heading .line {
+    width: 90px !important;
+    height: 2px !important;
+    background-color: #cb8670;
+    display: block;
+    margin-bottom: 40px !important;
+}
+a.btn.palatin-btn.mt-50 {
+    width: 25%;
+}
+.about-thumbnail.mb-100 {
+    padding: 10px;
+}
+.bg-overlay {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3))
+} 
+section.our-milestones.section-padding-100-0.bg-img.bg-overlay.bg-fixed:before {
+    content: "";
+    background: rgb(6 5 5 / 63%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+}
+.section-heading {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+.section-heading.white h2, .section-heading.white p {
+        color: #ffffff;
+}
+.our-milestones .single-cool-fact {
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.single-cool-fact {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    padding: 35px 15px;
+    border: 2px solid #cb8670;
+    text-align: center;
+    background-color: #363636;
+    margin: 0 auto;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+.single-cool-fact .scf-text i {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    display: block;
+    font-size: 70px;
+    margin-bottom: 10px;
+    color: #cb8670;
+}
+.single-cool-fact .scf-text h2 {
+    font-size: 48px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+.single-cool-fact .scf-text p {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #ffffff;
+    line-height: 1;
+}
+.mb-100 {
+    margin-bottom: 100px !important;
+}
+.section-heading h2 {
+    font-size: 48px;
+    color: #363636;
+}
+.single-hotel-info .hotel-info-text h6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.single-hotel-info .hotel-info-text h6 span {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30px;
+    flex: 0 0 30px;
+    max-width: 30px;
+    width: 30px;
+    margin-right: 15px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #cb8670;
+    border-radius: 50%;
+    line-height: 30px;
+    color: #ffffff;
+}
+.single-hotel-info .hotel-info-text {
+    margin-bottom: 45px;
+}
